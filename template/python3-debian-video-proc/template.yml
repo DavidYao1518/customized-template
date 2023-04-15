@@ -1,0 +1,8 @@
+language: python3-debian
+fprocess: python3 index.py
+build_options:
+        - name: video-proc
+          packages:
+                  - ffmpeg 
+                  - libsm6
+                  - libxext6
